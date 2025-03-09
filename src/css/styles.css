@@ -3,19 +3,19 @@
     margin: 0;
 
 }
-
+/*put padding and margin to 0  */
 body {
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: 1.2em;
 line-height: 1.3em;
 
 }
-
+/*put font-family to georgia and atleast serif, font-size 1.2em and line-height of 1.3em  */
 .index-ol{
 margin-top: 1em;
 
 }
-
+/*give index-ol margin-top  */
 nav {
     display: flex;
     justify-content: center;
@@ -23,51 +23,56 @@ nav {
     background-color: darkgreen;
     
     }
-    
+    /*make nav display flex, just-content center and background color */
+
     nav ul {
     display: flex;
     list-style: none
     }
     
+    /*nav ul display flex and remove list style */
+
     nav ul li{
     padding-left: 0.5em;
     margin-left: 1em;
     margin-right: 1em;
     
     }
-    
+     /*give list padding,margin left and right */
     nav a {
      text-decoration: none;
      color:white;
      font-size: 1.2em;
      
     }
-    
+     /*nav a text-decration none give color and font-szie */
     h1{
     
      color: yellow;
      font-size: 1.8em;
     }
-    
+     /*give color and font-size to h1 */
+
     header {
     padding-top: 1em;
     padding-bottom: 1em;
     text-align: center;
     background-color: darkgreen;
     }
+    /*give header text-align center and background color */
 
 footer{
     background-color: darkgreen;
 
 }
-
+/*give footer background clor */
 .footer-p{
 
 color: white;
 
 
 }
-
+/*give footer-p colorr */
 
 @media screen and (min-width: 320px ) {
  
@@ -215,6 +220,7 @@ margin-right: auto;
 
 }
 
+/*Put elements on grid layouts when min-width 320px with grid-row and grid-colums */
 
 @media only screen and (min-width: 1000px) {
  
@@ -282,7 +288,7 @@ margin-right: auto;
 
 
 
-
+/*change grid layout when min width 1000px  */
 
 }
 
